@@ -22,8 +22,7 @@ def solution():
                 rt.append(int(k * (i+1)))
             rt.append(value)
             last = ident
-    print('-----')
-    print(rt)
+
     n = min(int(n), len(rt))
     for i in range(n):
         print(last - n + i + 1, rt[-n+i])
